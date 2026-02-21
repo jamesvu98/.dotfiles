@@ -14,11 +14,6 @@ models:
     model: arcee-ai/trinity-large-preview:free
     roles:
       - chat
-  # - <<: *model_defaults
-  #   name: gpt
-  #   model: openai/gpt-oss-120b
-  #   roles:
-  #     - chat
   - <<: *model_defaults
     name: qwen2.5
     model: qwen/qwen2.5-coder-7b-instruct
@@ -37,20 +32,9 @@ models:
     roles:
       - chat
       - edit
-  # - <<: *model_defaults
-  #   name: mimo
-  #   model: xiaomi/mimo-v2-flash
-  #   roles:
-  #     - chat
-  #     - edit
   - <<: *model_defaults
     name: mistral
     model: mistralai/mistral-nemo
     roles:
       - chat
       - edit
-  - <<: *model_defaults
-    name: morph
-    model: morph/morph-v3-fast
-    roles:
-      - apply
