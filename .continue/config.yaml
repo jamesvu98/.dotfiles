@@ -1,0 +1,56 @@
+%YAML 1.1
+---
+name: Local Config
+version: 1.0.0
+schema: v1
+model_defaults: &model_defaults
+  provider: openrouter
+  apiBase: https://openrouter.ai/api/v1
+  apiKey: ${{ secrets.OPENROUTER_API_KEY }}
+
+models:
+  - <<: *model_defaults
+    name: arcee
+    model: arcee-ai/trinity-large-preview:free
+    roles:
+      - chat
+  # - <<: *model_defaults
+  #   name: gpt
+  #   model: openai/gpt-oss-120b
+  #   roles:
+  #     - chat
+  - <<: *model_defaults
+    name: qwen2.5
+    model: qwen/qwen2.5-coder-7b-instruct
+    autocompleteOptions:
+      modelTimeout: 1000
+    roles:
+      - autocomplete
+  # - <<: *model_defaults
+  #   name: qwen3
+  #   model: qwen/qwen3-235b-a22b-2507
+  #   roles:
+  #     - chat
+  - <<: *model_defaults
+    name: qwen3-coder
+    model: qwen/qwen3-coder-30b-a3b-instruct
+    roles:
+      - chat
+      - edit
+  # - <<: *model_defaults
+  #   name: mimo
+  #   model: xiaomi/mimo-v2-flash
+  #   roles:
+  #     - chat
+  #     - edit
+  - <<: *model_defaults
+    name: mistral
+    model: mistralai/mistral-nemo
+    roles:
+      - chat
+      - edit
+  - <<: *model_defaults
+    name: morph
+    model: morph/morph-v3-fast
+    roles:
+      - apply
