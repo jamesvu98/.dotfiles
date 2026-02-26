@@ -21,20 +21,20 @@ models:
       modelTimeout: 1000
     roles:
       - autocomplete
-  # - <<: *model_defaults
-  #   name: qwen3
-  #   model: qwen/qwen3-235b-a22b-2507
-  #   roles:
-  #     - chat
   - <<: *model_defaults
-    name: qwen3-coder
-    model: qwen/qwen3-coder-30b-a3b-instruct
+    name: qwen3
+    model: qwen/qwen3-235b-a22b-2507
     roles:
       - chat
-      - edit
+  # - <<: *model_defaults
+  #   name: qwen3-coder
+  #   model: qwen/qwen3-coder-30b-a3b-instruct
+  #   roles:
+  #     - chat
+  #     - edit
   - <<: *model_defaults
-    name: mistral
-    model: mistralai/mistral-nemo
+    name: qwen3-coder-next
+    model: qwen/qwen3-coder-next
     roles:
       - chat
       - edit
