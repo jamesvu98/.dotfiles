@@ -1,0 +1,134 @@
+{
+  "version": 3,
+  "skills": {
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "3013fdeb8a11b10b1eb795ec3ae8bfca38f7c26d",
+      "installedAt": "2026-03-29T14:19:59.015Z",
+      "updatedAt": "2026-03-29T14:20:05.234Z"
+    },
+    "repomix-explorer": {
+      "source": "yamadashy/repomix",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/yamadashy/repomix.git",
+      "skillPath": ".claude/skills/repomix-explorer/SKILL.md",
+      "skillFolderHash": "855d9ddc1a76a5c245b7d8ad9b02c2c015c442f9",
+      "installedAt": "2026-04-03T01:25:51.237Z",
+      "updatedAt": "2026-04-03T01:25:51.237Z"
+    },
+    "pdf": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/pdf/SKILL.md",
+      "skillFolderHash": "6369f4649de69bd6857c9bc3b058a77206009238",
+      "pluginName": "document-skills",
+      "installedAt": "2026-04-06T07:49:13.206Z",
+      "updatedAt": "2026-04-06T07:49:13.206Z"
+    },
+    "spreadsheet": {
+      "source": "openai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/openai/skills.git",
+      "skillPath": "skills/.curated/spreadsheet/SKILL.md",
+      "skillFolderHash": "b145197343e4f94669359184b8d1357ecc732272",
+      "installedAt": "2026-04-06T07:53:27.960Z",
+      "updatedAt": "2026-04-06T07:53:27.960Z"
+    },
+    "docx": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/docx/SKILL.md",
+      "skillFolderHash": "a0d216202f9793a78da44cf96aabe48f42e627ac",
+      "pluginName": "document-skills",
+      "installedAt": "2026-04-06T07:53:37.064Z",
+      "updatedAt": "2026-04-06T07:53:37.064Z"
+    },
+    "xlsx": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/xlsx/SKILL.md",
+      "skillFolderHash": "f5fb1cdb7993b2feee8367e983e9d4d58d2eedd4",
+      "pluginName": "document-skills",
+      "installedAt": "2026-04-08T14:10:36.042Z",
+      "updatedAt": "2026-04-08T14:10:36.042Z"
+    },
+    "gws-gmail": {
+      "source": "googleworkspace/cli",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/googleworkspace/cli.git",
+      "skillPath": "skills/gws-gmail/SKILL.md",
+      "skillFolderHash": "95c83c1280def63651f99025fa707bc0e4781a79",
+      "installedAt": "2026-05-05T12:25:56.775Z",
+      "updatedAt": "2026-05-05T12:25:56.775Z"
+    },
+    "defuddle": {
+      "source": "git@github.com:kepano/obsidian-skills.git",
+      "sourceType": "git",
+      "sourceUrl": "git@github.com:kepano/obsidian-skills.git",
+      "skillPath": "skills/defuddle/SKILL.md",
+      "skillFolderHash": "0ed68bc3e818ba0e6b8d192357ea3daaf552a3893f8854e7fd43c06831f91323",
+      "installedAt": "2026-05-05T14:00:06.761Z",
+      "updatedAt": "2026-05-05T14:00:06.761Z"
+    },
+    "json-canvas": {
+      "source": "git@github.com:kepano/obsidian-skills.git",
+      "sourceType": "git",
+      "sourceUrl": "git@github.com:kepano/obsidian-skills.git",
+      "skillPath": "skills/json-canvas/SKILL.md",
+      "skillFolderHash": "56cbac74a93e4fba97f4d44bccfdeaae89e545b223f47df392c7705e01e6c543",
+      "installedAt": "2026-05-05T14:00:06.762Z",
+      "updatedAt": "2026-05-05T14:00:06.762Z"
+    },
+    "obsidian-bases": {
+      "source": "git@github.com:kepano/obsidian-skills.git",
+      "sourceType": "git",
+      "sourceUrl": "git@github.com:kepano/obsidian-skills.git",
+      "skillPath": "skills/obsidian-bases/SKILL.md",
+      "skillFolderHash": "ed0a53502693e56c67575a9958daca9a3a1ac7ba483367f400b4cad9488bfb3c",
+      "installedAt": "2026-05-05T14:00:06.762Z",
+      "updatedAt": "2026-05-05T14:00:06.762Z"
+    },
+    "obsidian-cli": {
+      "source": "git@github.com:kepano/obsidian-skills.git",
+      "sourceType": "git",
+      "sourceUrl": "git@github.com:kepano/obsidian-skills.git",
+      "skillPath": "skills/obsidian-cli/SKILL.md",
+      "skillFolderHash": "f46ae626875f7e47c410c2ee93896c4526024ebe127719e8fb430261b5677edc",
+      "installedAt": "2026-05-05T14:00:06.762Z",
+      "updatedAt": "2026-05-05T14:00:06.762Z"
+    },
+    "obsidian-markdown": {
+      "source": "git@github.com:kepano/obsidian-skills.git",
+      "sourceType": "git",
+      "sourceUrl": "git@github.com:kepano/obsidian-skills.git",
+      "skillPath": "skills/obsidian-markdown/SKILL.md",
+      "skillFolderHash": "cacc9058a35ad3fd4985b4c31121bff8202f1337c39808c1326ded6a19a7915f",
+      "installedAt": "2026-05-05T14:00:06.763Z",
+      "updatedAt": "2026-05-05T14:00:06.763Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "dexto",
+    "firebender",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-cli",
+    "opencode",
+    "warp"
+  ]
+}
